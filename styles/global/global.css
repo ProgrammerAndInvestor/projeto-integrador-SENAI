@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.responsive_container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 100px;
+    height: 100%;
+}
+
+/* Description of each term */
+.term, .term_description {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #515151;
+    padding: 50px 0px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: lighter;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer .contact h4, .footer .contact a, .footer .contact span.address {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer .contact span.address {
+    min-width: 270px;
+    max-width: 270px;
+}
+
+.footer .contact .phone, .footer .contact .whatsapp, .footer .contact .address{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.footer .contact a:hover {
+    color: #f00;
+}
+
+.footer .contact h4 {
+    margin-bottom: 15px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.social_medias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 762px) {
+    .responsive_container {
+        padding: 0 20px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}

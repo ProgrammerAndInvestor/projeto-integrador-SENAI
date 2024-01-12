@@ -1,0 +1,120 @@
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #f00;
+}
+
+.navigation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+    margin: 0 auto;
+}
+
+
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation_item {
+    list-style: none;
+}
+
+.navigation_link {
+    color: #212529;
+    transition: 0.2s;
+}
+
+.navigation_link:hover {
+    color: #f00;
+}
+
+
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #f00;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #f00;
+    margin-top: 5px;
+    position: relative;
+    transition: .3s;
+}
+
+@media (max-width: 750px) {
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    .navigation_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f00;
+        clip-path: circle(0px at 90% -15%);
+        transition: .5s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .navigation_item a {
+        opacity: 0;
+    }
+
+    .navigation_item:nth-child(1) a {
+        transition: 0.5s 0.15s;
+    }
+
+    .navigation_item:nth-child(2) a {
+        transition: 0.5s 0.30s;
+    }
+
+    .navigation_item:nth-child(3) a {
+        transition: 0.5s 0.45s;
+    }
+
+    .navigation_item:nth-child(4) a {
+        transition: 0.5s 0.60s;
+    }
+
+    .navigation_bar.active .hamburguer {
+        border-top-color: transparent;
+    }
+
+    .navigation_bar.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .navigation_bar.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -8px;
+    }
+
+    .navigation_bar.active .navigation_menu {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    .navigation_bar.active .navigation_item a {
+        opacity: 1;
+    }
+}

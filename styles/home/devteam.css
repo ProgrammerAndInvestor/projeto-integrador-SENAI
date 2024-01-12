@@ -1,0 +1,46 @@
+.devteam_picture {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.devteam_picture h5 {
+    color: #fff;
+    border-bottom: 0.5px solid #f00;
+    width: fit-content;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.linkedin a {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+    transition: .2s;
+    gap: 10px;
+}
+
+.linkedin a:hover {
+    color: #f00;
+}
+
+.devteam_picture .contributors {
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+@media (max-width: 768px) {
+    .devteam_picture .contributors {
+        width: 280px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,107 @@
+/* Curriculum Structure */
+.curriculum_structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculum_structure h5 {
+    color: #fff;
+    border-bottom: 0.5px solid #f00;
+    width: fit-content;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.curriculum_structure .first_term,
+.curriculum_structure .second_term,
+.curriculum_structure .third_term {
+    width: 100%;
+}
+
+.term {
+    text-align: center;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subjects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.subject {
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    background-color: #414141;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.subject::after,
+.subject::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.subject::before {
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #fff;
+    transform: scaleX(0);
+}
+
+.subject::after {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #fff;
+    transform: scaleY(0);
+}
+
+.subject:hover {
+    border-radius: 0;
+}
+
+.subject:hover::before {
+    transform: scaleY(1);
+}
+
+.subject:hover::after {
+    transform: scaleX(1);
+}
+
+.subject .name {
+    color: #fff;
+}
+
+.subject .hours {
+    color: #fff;
+}
+
+.total_hours {
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.curriculum_structure .total_hours h4 {
+    color: #000;
+    font-weight: normal;
+    font-size: medium;
+}

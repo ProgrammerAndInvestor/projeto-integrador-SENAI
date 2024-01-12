@@ -1,0 +1,39 @@
+/* About the course */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 0;
+    flex-wrap: wrap-reverse;
+}
+
+.requirements {
+    flex-wrap: wrap;
+}
+
+.about .text h5 {
+    color: #fff;
+    border-bottom: 0.5px solid #f00;
+    width: fit-content;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.about .text p {
+    color: #fff;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: justify;
+}
+
+.about img {
+    max-width: 300px;
+}
+
+@media (max-width: 1049px) {
+    .about {
+        justify-content: center;
+    }
+}
