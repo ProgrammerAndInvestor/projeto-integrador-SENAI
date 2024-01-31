@@ -11,10 +11,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .curricular_unit .description {
     max-width: 500px;
+    min-width: 290px;
 }
 
 .workload p{
@@ -24,6 +26,7 @@
     border-radius: 10px;
     color: #fff;
     font-size: small;
+    margin-top: 25px;
 }
 
 .right {
@@ -34,4 +37,10 @@
 
 .text_right {
     text-align: right;
+}
+
+@media (max-width: 999px) {
+    .curricular_unit .informations {
+        justify-content: center;
+    }
 }
