@@ -83,7 +83,7 @@ index.html
 <a href="https://www.linkedin.com/in/kau%C3%AA-trigolo-damaceno-411a11287/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
 </a>
-<a href="https://https://github.com/kauetrigolo">
+<a href="https://github.com/kauetrigolo">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
@@ -91,7 +91,7 @@ index.html
 <a href="https://www.linkedin.com/in/laiza-silva-barbosa-1821b7271/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
 </a>
-<a href="https://https://github.com/LaizaBarbosa">
+<a href="https://github.com/LaizaBarbosa">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
@@ -99,14 +99,14 @@ index.html
 <a href="https://www.linkedin.com/in/rodrigo-matos-38b954287/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
 </a>
-<a href="https://https://github.com/Rodriguou">
+<a href="https://github.com/Rodriguou">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <p>Ryan Novaes</p>
-<a href="https://https://www.linkedin.com/in/ryan-novaes-847532272/" >
+<a href="https://www.linkedin.com/in/ryan-novaes-847532272/" >
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> 
 </a>
-<a href="https://https://github.com/ryanNS3">
+<a href="hhttps://github.com/ryanNS3">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </a>
