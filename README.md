@@ -1,6 +1,6 @@
-# Projeto Integrador SENAI Suiço-Brasileira 🏫
+<h1 align="center">Projeto Integrador SENAI Suiço-Brasileira 🏫</h1>
 
-Projeto integrador, solicitado como trabalho final do primeiro semestre do curso Técnico em Análise e Desenvolvimento de Sistemas na instituição SENAI Suíço-Brasileira, com o objetivo de divulgar e promover o curso. 🚀
+<p align="center">Projeto integrador, solicitado como trabalho final do primeiro semestre do curso Técnico em Análise e Desenvolvimento de Sistemas na instituição SENAI Suíço-Brasileira, com o objetivo de divulgar e promover o curso. 🚀</p>
 
 ## Sumário
 
@@ -28,7 +28,9 @@ Projeto integrador, solicitado como trabalho final do primeiro semestre do curso
 </div>
 
 #### Mobile
-
+<div align="center">
+  <h4>Desktop</h4>
+</div>
 ### Links
 
 > URL da Página: [https://projetointegradorsenai.vercel.app](https://projetointegradorsenai.vercel.app)
