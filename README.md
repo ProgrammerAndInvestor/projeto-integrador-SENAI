@@ -1,36 +1,94 @@
-# Projeto Integrador
-Site do SENAI
+# Projeto Integrador SENAI Suiço-Brasileira 🏫
 
-Este é o repositório do site do Curso Técnico em Desenvolvimento de Sistemas criado por estudantes do SENAI. O objetivo deste projeto é desenvolver um site moderno, intuitivo e informativo para promover e fornecer informações sobre as atividades do curso técnico em específico.
+Projeto integrador, solicitado como trabalho final do primeiro semestre do curso Técnico em Análise e Desenvolvimento de Sistemas na instituição SENAI Suíço-Brasileira, com o objetivo de divulgar e promover o curso. 🚀
 
+## Sumário
 
-# Sobre o SENAI
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-O SENAI é uma instituição brasileira de educação profissional e tecnológica, fundada em 1942. Ele é responsável por oferecer cursos técnicos, de qualificação profissional, aprendizagem industrial e pós-graduação, além de prestar serviços técnicos e tecnológicos às indústrias.
+## Overview
 
+### Screenshot
 
-# Funcionalidades do site:
+![Home](./assets/images/markdown/home_1st.png)
+![Home](./assets/images/markdown/home_2nd.png)
+![Home](./assets/images/markdown/home_3rd.png)
+![Home](./assets/images/markdown/home_4th.png)
+![Semester](./assets/images/markdown/semester_1st.png)
+![Semester](./assets/images/markdown/semester_2nd.png)
 
-Página inicial: Apresenta uma visão geral do curso, além de organização curricular e contatos do SENAI.
+### Links
 
-Unidades Curriculares: Apresenta uma descrição breve sobre cada unidade curricular dos três semestres de curso, em especial do primeiro semestre.
+- URL da Página: [https://projetointegradorsenai.vercel.app](https://projetointegradorsenai.vercel.app)
 
+## My process
 
-# Tecnologias utilizadas:
+### Built with
 
-HTML5: Linguagem de marcação para estruturar e apresentar o conteúdo do site.
+![My Skills](https://skillicons.dev/icons?i=html,css,js,vercel,)
 
-CSS3: Folhas de estilo para estilizar e melhorar a aparência do site.
+- HTML Semântico
+- CSS
+- Flexbox
+- Responsividade
+- Javascript
 
-JavaScript: Linguagem de programação para adicionar interatividade e funcionalidades avançadas ao site.
+### What I learned
 
-GitHub: Plataforma de hospedagem de código-fonte que permite o compartilhamento e colaboração do projeto.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-## *OBSERVAÇãO: Esse site foi hospedado no plataforma de nuvem Azure.
+To see how you can add code snippets, see below:
 
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-Protótipo:
-https://www.figma.com/file/XEyDA3upCrr9hxn2KQY1QG/Projeto?type=design&node-id=0%3A1&t=f0F76SiOocoZIPbT-1
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-Link Azure (Site Hospedado)
-https://projetointegrador.z13.web.core.windows.net/
+**Note: Delete this note and the content within this section and replace with your own learnings.**
+
+### Continued development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
+### Useful resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
